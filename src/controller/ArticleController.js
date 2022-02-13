@@ -41,7 +41,6 @@ class ArticleController {
             return res.json(result);
         } else
             return res.json(null);
-
     }
 
     async articleById(req, res) {
